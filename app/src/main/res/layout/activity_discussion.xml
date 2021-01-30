@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEE5EC"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_quiz" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_book" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_discussion" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_setting" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="#24BDED"
+        android:fontFamily="@font/piedra"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_rectangle_3" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_ellipse_2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="53dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Quiz"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="53dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Books"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="53dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Discussion"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="53dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="342dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_profile" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#0222F4"
+        android:text="Sign Out"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2D611F"
+        app:strokeColor="#4EFF1D" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/piedra"
+        android:text="PROFILE"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/ic_rectangle_23__1_" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/ic_profile" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_quiz" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_book" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_discussion" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
