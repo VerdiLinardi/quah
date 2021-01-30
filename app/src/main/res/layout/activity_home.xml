@@ -26,7 +26,7 @@
         android:layout_width="116dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/piedra"
         android:text="Hi, Students"
         android:textColor="#000000"
@@ -38,7 +38,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -108,7 +108,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/ic_rectangle_5" />
@@ -117,7 +117,7 @@
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
@@ -127,7 +127,7 @@
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
@@ -138,7 +138,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:srcCompat="@drawable/ic_rectangle_10" />
@@ -201,10 +201,10 @@
         android:id="@+id/imageView10"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
         app:srcCompat="@drawable/ic_quiz" />
 
     <ImageView
@@ -248,9 +248,9 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
@@ -292,5 +292,177 @@
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7"
         app:srcCompat="@drawable/ic_book" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_rectangle_3" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_ellipse_2" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_quiz" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_book" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_discussion" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_setting" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="53dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Quiz"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="53dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Books"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="53dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="65dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Discussion"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="55dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="342dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#8F95A5"
+        android:fontFamily="@font/alike"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="0.5dp"
+        android:text="Setting"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
