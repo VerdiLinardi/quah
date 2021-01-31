@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#DEE5EC"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/imageView20"
@@ -27,7 +27,7 @@
         android:fontFamily="@font/piedra"
         android:text="Discussion Topic"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toTopOf="@+id/textView26" />
 
@@ -54,7 +54,7 @@
         android:text="15 Replies"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView26"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView26"
@@ -71,7 +71,7 @@
         android:text="100 Views"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView26"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textView26"
@@ -121,7 +121,7 @@
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_setting" />
+         />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -299,7 +299,6 @@
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contextClickable="D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -313,7 +312,7 @@
         android:fontFamily="@font/piedra"
         android:text="DISCUSSION"
         android:textColor="#000000"
-        android:textSize="48"
+        android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -328,7 +327,7 @@
         android:fontFamily="@font/piedra"
         android:text="+ New Thread"
         android:textAllCaps="false"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView7" />
 
@@ -341,7 +340,7 @@
         android:fontFamily="@font/piedra"
         android:text="By Category"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -354,7 +353,7 @@
         android:fontFamily="@font/piedra"
         android:text="Last Reply"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -367,7 +366,7 @@
         android:fontFamily="@font/piedra"
         android:text="Popular"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -380,7 +379,7 @@
         android:fontFamily="@font/piedra"
         android:text="Recent"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -557,7 +556,7 @@
         android:fontFamily="@font/piedra"
         android:text="Discussion Topic"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView36"
         app:layout_constraintTop_toTopOf="@+id/textView36" />
 
@@ -570,7 +569,7 @@
         android:fontFamily="@font/piedra"
         android:text="Discussion Topic"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView38"
         app:layout_constraintTop_toTopOf="@+id/textView38" />
 
@@ -583,7 +582,7 @@
         android:fontFamily="@font/piedra"
         android:text="Discussion Topic"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView39"
         app:layout_constraintTop_toTopOf="@+id/textView39" />
 
@@ -596,7 +595,7 @@
         android:fontFamily="@font/piedra"
         android:text="Discussion Topic"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView37"
         app:layout_constraintTop_toTopOf="@+id/textView37" />
 
@@ -609,7 +608,7 @@
         android:fontFamily="@font/piedra"
         android:text="Discussion Topic"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView35"
         app:layout_constraintTop_toTopOf="@+id/textView35" />
 
@@ -622,7 +621,7 @@
         android:fontFamily="@font/piedra"
         android:text="Discussion Topic"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toTopOf="@+id/textView26" />
 
@@ -709,7 +708,7 @@
         android:text="15 Replies"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView26"
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toTopOf="@+id/textView26" />
@@ -725,7 +724,7 @@
         android:text="15 Replies"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView36"
         app:layout_constraintStart_toStartOf="@+id/textView36"
         app:layout_constraintTop_toTopOf="@+id/textView36" />
@@ -741,7 +740,7 @@
         android:text="15 Replies"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView35"
         app:layout_constraintStart_toStartOf="@+id/textView35"
         app:layout_constraintTop_toTopOf="@+id/textView35" />
@@ -757,7 +756,7 @@
         android:text="15 Replies"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView37"
         app:layout_constraintStart_toStartOf="@+id/textView37"
         app:layout_constraintTop_toTopOf="@+id/textView37" />
@@ -773,7 +772,7 @@
         android:text="15 Replies"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView38"
         app:layout_constraintStart_toStartOf="@+id/textView38"
         app:layout_constraintTop_toTopOf="@+id/textView38" />
@@ -789,7 +788,7 @@
         android:text="15 Replies"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView39"
         app:layout_constraintStart_toStartOf="@+id/textView39"
         app:layout_constraintTop_toTopOf="@+id/textView39" />
@@ -805,7 +804,7 @@
         android:text="100 Views"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView26"
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toTopOf="@+id/textView26" />
@@ -821,7 +820,7 @@
         android:text="100 Views"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView35"
         app:layout_constraintStart_toStartOf="@+id/textView35"
         app:layout_constraintTop_toTopOf="@+id/textView35" />
@@ -837,7 +836,7 @@
         android:text="100 Views"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView38"
         app:layout_constraintStart_toStartOf="@+id/textView38"
         app:layout_constraintTop_toTopOf="@+id/textView38" />
@@ -853,7 +852,7 @@
         android:text="100 Views"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView39"
         app:layout_constraintStart_toStartOf="@+id/textView39"
         app:layout_constraintTop_toTopOf="@+id/textView39" />
@@ -869,7 +868,7 @@
         android:text="100 Views"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView37"
         app:layout_constraintStart_toStartOf="@+id/textView37"
         app:layout_constraintTop_toTopOf="@+id/textView37" />
@@ -885,7 +884,7 @@
         android:text="100 Views"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/textView36"
         app:layout_constraintStart_toStartOf="@+id/textView36"
         app:layout_constraintTop_toTopOf="@+id/textView36" />

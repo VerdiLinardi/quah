@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FAFCFD"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/textView64"
@@ -324,8 +324,9 @@
         android:layout_height="45dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_setting" />
+        app:layout_constraintTop_toTopOf="@+id/imageView14"/>
+<!--        app:srcCompat="@drawable/ic_setting" -->
+
 
     <ImageView
         android:id="@+id/imageView14"
@@ -503,7 +504,6 @@
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contextClickable="D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -517,7 +517,7 @@
         android:fontFamily="@font/piedra"
         android:text="BOOKS"
         android:textColor="#000000"
-        android:textSize="48"
+        android:textSize="48dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

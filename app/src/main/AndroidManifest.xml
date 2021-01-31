@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QUAH">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".BooksActivity"></activity>
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".NewtopicActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".DiscussionActivity"></activity>
+        <activity android:name=".QuizActivity"></activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
