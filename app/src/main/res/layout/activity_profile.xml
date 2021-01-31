@@ -313,7 +313,7 @@
         android:id="@+id/button8"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="155dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/piedra"
         android:text="Rate Us                      >"
@@ -321,13 +321,14 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="155dp"
+        android:layout_marginBottom="220dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/piedra"
         android:text="Help                           >"
@@ -335,7 +336,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -361,21 +362,6 @@
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/piedra"
         android:text="Points                       >"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="220dp"
-        android:backgroundTint="#FFFFFF"
-        android:fontFamily="@font/piedra"
-        android:text="Settings                    >"
         android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView15"
