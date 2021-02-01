@@ -43,8 +43,8 @@
         android:id="@+id/textView72"
         android:layout_width="203dp"
         android:layout_height="143dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="#2BBA9E"
         android:fontFamily="@font/piedra"
         android:paddingStart="5dp"
@@ -629,28 +629,28 @@
         android:layout_width="74dp"
         android:layout_height="44dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:background="#E45858"
         android:backgroundTint="#C3A1A1"
         android:text="100 pts"
         android:textSize="9sp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toEndOf="@+id/imageView40"
-        app:layout_constraintTop_toTopOf="@+id/textView72" />
+        app:layout_constraintTop_toBottomOf="@+id/textView88" />
 
     <Button
         android:id="@+id/button30"
         android:layout_width="74dp"
         android:layout_height="44dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:background="#E45858"
         android:backgroundTint="#C3A1A1"
         android:text="100 pts"
         android:textSize="9sp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toEndOf="@+id/imageView43"
-        app:layout_constraintTop_toTopOf="@+id/textView73" />
+        app:layout_constraintTop_toBottomOf="@+id/textView89" />
 
     <Button
         android:id="@+id/button31"
