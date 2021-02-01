@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/ic_quiz" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/nav_home"
         android:layout_width="45dp"
         android:layout_height="45dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView15"
@@ -26,7 +26,7 @@
         app:srcCompat="@drawable/ic_book" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/nav_books"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginBottom="30dp"
@@ -36,16 +36,16 @@
         app:srcCompat="@drawable/ic_home" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/nav_quiz"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginEnd="25dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintEnd_toStartOf="@+id/disc_nav_profile"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
         app:srcCompat="@drawable/ic_discussion" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/nav_discussion"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginEnd="20dp"
@@ -193,17 +193,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_profile" />
-
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_signout"
         android:layout_width="380dp"
         android:layout_height="70dp"
         android:layout_marginBottom="100dp"
@@ -213,7 +204,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#2D611F"
-        app:strokeColor="#4EFF1D" />
+        app:strokeColor="#4EFF1D"
+        android:onClick="profiletologin"/>
 
     <TextView
         android:id="@+id/textView17"
@@ -249,41 +241,54 @@
         app:srcCompat="@drawable/ic_profile" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/profile_nav_quiz"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_quiz" />
+        app:srcCompat="@drawable/ic_quiz"
+        android:onClick="profiletoquiz"/>
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/profile_nav_profile"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@drawable/ic_profile" />
+
+    <ImageButton
+        android:id="@+id/profile_nav_books"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="25dp"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_book" />
+        app:srcCompat="@drawable/ic_book"
+        android:onClick="profiletobooks"/>
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/profile_nav_discussion"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginEnd="25dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintEnd_toStartOf="@+id/nav_discussion"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_discussion" />
+        app:srcCompat="@drawable/ic_discussion"
+        android:onClick="profiletodiscussion"/>
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/profile_nav_home"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_home" />
+        app:srcCompat="@drawable/ic_home"
+        android:onClick="profiletohome"/>
 
     <TextView
         android:id="@+id/textView18"
@@ -313,60 +318,57 @@
         android:id="@+id/button8"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="200dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/piedra"
         android:text="Rate Us                      >"
         android:textColor="#000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="250dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/piedra"
         android:text="Help                           >"
         android:textColor="#000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/piedra"
         android:text="Change Profile         >"
         android:textColor="#000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="350dp"
+        android:layout_marginTop="5dp"
         android:backgroundTint="#FFFFFF"
         android:fontFamily="@font/piedra"
         android:text="Points                       >"
         android:textColor="#000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

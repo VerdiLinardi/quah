@@ -51,23 +51,25 @@
         app:srcCompat="@drawable/ic_ellipse_2" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/nav_home"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_home" />
+        app:srcCompat="@drawable/ic_home"
+        android:onClick="newtohome"/>
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/nav_discussion"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_discussion" />
+        app:srcCompat="@drawable/ic_discussion"
+        android:onClick="newtodisc"/>
 
     <Button
         android:id="@+id/button3"
@@ -177,34 +179,37 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/nav_books"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="25dp"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_book" />
+        app:srcCompat="@drawable/ic_book"
+        android:onClick="newtobooks"/>
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/nav_quiz"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="20dp"
         app:layout_constraintStart_toStartOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_quiz" />
+        app:srcCompat="@drawable/ic_quiz"
+        android:onClick="newtoquiz"/>
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/nav_profile"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_profile" />
+        app:srcCompat="@drawable/ic_profile"
+        android:onClick="newtoprofile"/>
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/btn_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -215,10 +220,11 @@
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="newtodisc"/>
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
@@ -229,7 +235,8 @@
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="newtodisc"/>
 
     <TextView
         android:id="@+id/textView60"

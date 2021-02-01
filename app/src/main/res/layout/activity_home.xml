@@ -104,44 +104,48 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/btn_quiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/ic_rectangle_5" />
+        app:srcCompat="@drawable/ic_rectangle_5"
+        android:onClick="toQuiz"/>
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/btn_discussion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/ic_rectangle_9" />
+        app:srcCompat="@drawable/ic_rectangle_9"
+        android:onClick="toDiscussion"/>
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/btn_books"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/ic_rectangle_11" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_discussion"
+        app:srcCompat="@drawable/ic_rectangle_11"
+        android:onClick="toBooks"/>
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/btn_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/ic_rectangle_10" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_quiz"
+        app:srcCompat="@drawable/ic_rectangle_10"
+        android:onClick="toProfile"/>
 
     <TextView
         android:id="@+id/textView9"
@@ -153,8 +157,8 @@
         android:text="QUIZ"
         android:textColor="#000000"
         android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintStart_toStartOf="@+id/btn_quiz"
+        app:layout_constraintTop_toTopOf="@+id/btn_quiz" />
 
     <TextView
         android:id="@+id/textView10"
@@ -167,9 +171,9 @@
         android:text="Challenge yourself and earn your point"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_quiz"
+        app:layout_constraintStart_toStartOf="@+id/btn_quiz"
+        app:layout_constraintTop_toTopOf="@+id/btn_quiz" />
 
     <TextView
         android:id="@+id/textView11"
@@ -181,8 +185,8 @@
         android:text="DISCUSSION"
         android:textColor="#000000"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_discussion"
+        app:layout_constraintTop_toTopOf="@+id/btn_discussion" />
 
     <TextView
         android:id="@+id/textView12"
@@ -194,8 +198,8 @@
         android:text="Socialize and learn new thing"
         android:textColor="#000000"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintStart_toStartOf="@+id/btn_discussion"
+        app:layout_constraintTop_toTopOf="@+id/btn_discussion" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -203,8 +207,8 @@
         android:layout_height="150dp"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_quiz"
+        app:layout_constraintStart_toStartOf="@+id/btn_quiz"
         app:srcCompat="@drawable/ic_quiz" />
 
     <ImageView
@@ -213,8 +217,8 @@
         android:layout_height="80dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_discussion"
+        app:layout_constraintEnd_toEndOf="@+id/btn_discussion"
         app:srcCompat="@drawable/ic_discussion" />
 
     <TextView
@@ -227,8 +231,8 @@
         android:text="PROFILE"
         android:textColor="#000000"
         android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+        app:layout_constraintStart_toStartOf="@+id/btn_profile"
+        app:layout_constraintTop_toTopOf="@+id/btn_profile" />
 
     <TextView
         android:id="@+id/textView14"
@@ -242,9 +246,9 @@
         android:textAlignment="textStart"
         android:textColor="#000000"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView8"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_profile"
+        app:layout_constraintStart_toStartOf="@+id/btn_profile"
+        app:layout_constraintTop_toTopOf="@+id/btn_profile" />
 
     <TextView
         android:id="@+id/textView15"
@@ -256,8 +260,8 @@
         android:text="BOOKS"
         android:textColor="#000000"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_books"
+        app:layout_constraintTop_toTopOf="@+id/btn_books" />
 
     <TextView
         android:id="@+id/textView16"
@@ -270,8 +274,8 @@
         android:textAlignment="textEnd"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="@+id/imageView7" />
+        app:layout_constraintBottom_toBottomOf="@+id/btn_books"
+        app:layout_constraintEnd_toEndOf="@+id/btn_books" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -279,8 +283,8 @@
         android:layout_height="135dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/btn_books"
+        app:layout_constraintTop_toTopOf="@+id/btn_books"
         app:srcCompat="@drawable/ic_book" />
 
     <ImageView
@@ -303,7 +307,7 @@
         app:srcCompat="@drawable/ic_ellipse_2" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/nav_home"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginBottom="30dp"
@@ -313,13 +317,14 @@
         app:srcCompat="@drawable/ic_home" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/nav_discussion"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="15dp"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_discussion" />
+        app:srcCompat="@drawable/ic_discussion"
+        android:onClick="toDiscussion"/>
 
     <Button
         android:id="@+id/button3"
@@ -429,22 +434,24 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/nav_books"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="25dp"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_book" />
+        app:srcCompat="@drawable/ic_book"
+        android:onClick="toBooks"/>
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/nav_quiz"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginStart="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_quiz" />
+        app:srcCompat="@drawable/ic_quiz"
+        android:onClick="toQuiz"/>
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -458,13 +465,14 @@
         app:srcCompat="@drawable/ic_redeem" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/disc_nav_profile"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_profile" />
+        app:srcCompat="@drawable/ic_profile"
+        android:onClick="toProfile"/>
 
     <ImageView
         android:id="@+id/imageView9"
@@ -472,8 +480,8 @@
         android:layout_height="80dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/btn_profile"
+        app:layout_constraintTop_toTopOf="@+id/btn_profile"
         app:srcCompat="@drawable/ic_profile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
